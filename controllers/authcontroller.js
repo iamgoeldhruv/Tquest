@@ -1,5 +1,6 @@
 const User = require('../models/usermodel');
-
+const uri = "mongodb+srv://Dhruv:Dhruv2004@cluster0.kd8ttho.mongodb.net/tquest?retryWrites=true&w=majority&appName=Cluster0";
+const mongoose = require('mongoose');
 
 async function loginUser(req, res) {
     try {

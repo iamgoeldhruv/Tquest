@@ -18,11 +18,7 @@ async function connectToDatabase() {
     console.error("Error connecting to MongoDB Atlas:", err);
   }
 
-  finally {
-   console.log("once done dont forget to close your connection")
-   await client.close();
-    
-  }
+  
 }
 
 // Exporting the connectToDatabase function
